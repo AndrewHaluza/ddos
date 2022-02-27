@@ -16,5 +16,7 @@
 ### upload from docker:
 `docker run -it ndh1/ddoser:latest python3 ./start.py udp 1.1.1.1:53 10 100`
 
+`docker run -it ndh1/ddoser:latest python3 ./start.py {method} {ip}:{port} {threds} {duration}`
+
 
 ### Use only in good intentions
